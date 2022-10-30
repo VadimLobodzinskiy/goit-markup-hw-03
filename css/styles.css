@@ -208,6 +208,12 @@ address {
   margin-left: auto;
   margin-right: auto;
 }
+
+.features-sections {
+  display: flex;
+  margin-left: 30px;
+}
+
 .features-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -305,10 +311,10 @@ address {
   flex-wrap: wrap;
 }
 
-.projects-item { 
-width: 370px;  
-margin-right: 30px;
-margin-bottom: 30px;
+.projects-item {
+  width: 370px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .projects-item:nth-child(3n) {
   margin-right: 0;
@@ -319,7 +325,7 @@ margin-bottom: 30px;
 
 .item-content {
   padding: 20px 24px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   border-top: none;
 }
 
@@ -337,7 +343,6 @@ margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.88;
   margin-top: 4px;
-
 }
 
 /* Кнопки в портфоліо */
