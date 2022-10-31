@@ -61,6 +61,11 @@ address {
 }
 
 /* page header */
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -82,9 +87,11 @@ address {
 
 /* header-navigation */
 
+.header-nav {
+  margin-left: 93px;
+}
 .site-nav {
   display: flex;
-  margin-left: 93px;
 }
 
 .site-nav .item:not(:last-child) {
@@ -189,10 +196,7 @@ address {
 /* section */
 
 .sections-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -201,20 +205,13 @@ address {
 }
 
 /* <!-- 1.Показники досвіду --> */
-.features {
-  display: flex;
-  width: 1170px;
-  margin-top: 94px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .features-sections {
   display: flex;
-  margin-left: 30px;
 }
 
 .features-title {
+  margin-bottom: 10px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -236,14 +233,11 @@ address {
 
 /* <!-- 2.Чим ми займаємося--> */
 .works {
-  width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-top: 0;
 }
 
 .features-works {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .works-items {
@@ -258,14 +252,9 @@ address {
 /* <!--  3.Наша команда--> */
 .team {
   background-color: var(--background-team);
-  text-align: center;
 }
 .features-team {
   display: flex;
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 94px;
 }
 
 .team-content {
@@ -350,7 +339,7 @@ address {
 .filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .btn {
   background-color: var(--background-team);
